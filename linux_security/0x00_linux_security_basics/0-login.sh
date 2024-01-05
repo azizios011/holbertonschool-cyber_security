@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo -S last -n 5 -F
+sudo -S last -n 5 <<< "$password"
 
