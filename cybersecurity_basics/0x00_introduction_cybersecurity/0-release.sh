@@ -1,2 +1,2 @@
 #!/bin/bash
-lsb_release -i -s | tr -d '\n'
+lsb_release -i -s | tr -d '\n' | tr -d '[:space:]'
