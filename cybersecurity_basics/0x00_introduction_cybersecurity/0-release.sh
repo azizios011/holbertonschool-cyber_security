@@ -1,2 +1,5 @@
 #!/bin/bash
-lsb_release -is
+
+distributor_id=$(lsb_release -is)
+echo $distributor_id
+
