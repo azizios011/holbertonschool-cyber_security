@@ -1,5 +1,4 @@
 #!/bin/bash
+# This script displays the distributor ID.
 
-distributor_id=$(lsb_release -is)
-echo $distributor_id
-
+echo $(lsb_release -is)
