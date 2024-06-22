@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo netstat -ntp
+sudo ss -ntp
